@@ -1,14 +1,13 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Webvise Login\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-26 13:59+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: \n"
-"Language: \n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: 2021-04-26 13:46+0000\n"
+"PO-Revision-Date: 2021-04-26 14:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Deutsch\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,43 +17,43 @@ msgstr ""
 
 #. Description of the plugin
 msgid "A plugin to login users with a link send in an e-mail"
-msgstr ""
+msgstr "Ein Plugin um Benutzer mit einem Link in einer E-Mail anzumelden"
 
 #: public/class-wv-login-public.php:145
 msgid "An error occured when submitting the form"
-msgstr ""
+msgstr "Beim Absenden des Formulars ist ein Fehler aufgetreten"
 
 #: public/class-wv-login-public.php:255
 msgid "E-Mailaddress"
-msgstr ""
+msgstr "E-Mail-Adresse"
 
 #: admin/class-wv-login-admin.php:180
 msgid "Email Sender emailaddress"
-msgstr ""
+msgstr "E-mail Absender E-Mail-Adresse"
 
 #: admin/class-wv-login-admin.php:171
 msgid "Email Sender Name"
-msgstr ""
+msgstr "E-mail Absender Name"
 
 #: admin/class-wv-login-admin.php:189
 msgid "Email Subject"
-msgstr ""
+msgstr "E-Mail Betreff"
 
 #: admin/class-wv-login-admin.php:198
 msgid "Email Text (use #LINK# for the generated link)"
-msgstr ""
+msgstr "Email Text (benutze #LINK# für den generierten Link)"
 
 #: admin/class-wv-login-admin.php:123
 msgid "Error found in security key"
-msgstr ""
+msgstr "Fehler im Sicherheitsschlüssel gefunden"
 
 #: public/class-wv-login-public.php:257
 msgid "Get login link"
-msgstr ""
+msgstr "Schicke mir den Login-Link per E-Mail"
 
 #. URI of the plugin
 msgid "https://www.webvise.nl/plugins/wv-login"
-msgstr ""
+msgstr "https://www.webvise.nl/plugins/wv-login"
 
 #: public/class-wv-login-public.php:260
 msgid ""
@@ -62,19 +61,24 @@ msgid ""
 "with your magic login-link shortly. Check also your Spam / Junkmail folder "
 "when you do not receive it."
 msgstr ""
+"Wenn deine  E-Mail-Adresse in unserem System gefunden wurde, erhältst du in "
+"Kürze eine E-Mail mit deinem magischen Login-Link. Überprüfe auch deinen "
+"Spam / Junkmail-Ordner, wenn du sie nicht erhältst."
 
 #: public/class-wv-login-public.php:218 public/class-wv-login-public.php:223
 #: public/class-wv-login-public.php:228
 msgid "Invalid Emailaddress"
-msgstr ""
+msgstr "Ungültige E-Mail-Adresse"
 
 #: public/class-wv-login-public.php:240
 msgid "Magic login with e-mail"
-msgstr ""
+msgstr "Magic Login mit E-Mail"
 
 #: admin/class-wv-login-admin.php:162
 msgid "Only the following roles can login per link (seperate roles with comma)"
 msgstr ""
+"Nur die folgenden Rollen können sich pro Link einloggen (die Rollen mit "
+"Komma trennen)"
 
 #: public/class-wv-login-public.php:253
 msgid ""
@@ -82,33 +86,38 @@ msgid ""
 "have a valid account you will receive an e-mail with a link to log in "
 "immediately."
 msgstr ""
+"Schnelles Einloggen ohne Passwort? Bitte gib unten deine E-Mail-Adresse ein. "
+"Wenn du einen gültigen Account hast, erhältst du eine E-Mail mit einem Link, "
+"um dich sofort einzuloggen."
 
 #: admin/class-wv-login-admin.php:207
 msgid "Redirect to url after login (enter the full url)"
-msgstr ""
+msgstr "Redirect zur Url nach dem Login (gib die vollständige Url ein)"
 
 #: admin/class-wv-login-admin.php:216
 msgid "Save changes"
-msgstr ""
+msgstr "Änderungen speichern"
 
 #: public/class-wv-login-public.php:210
 msgid ""
 "There was a problem with sending emails, the system administrator has been "
 "notified"
 msgstr ""
+"Es gab ein Problem beim Versenden von E-Mails, der Systemadministrator wurde "
+"benachrichtigt"
 
 #. Author of the plugin
 msgid "Webvise"
-msgstr ""
+msgstr "Webvise"
 
 #. Name of the plugin
 msgid "Webvise Login"
-msgstr ""
+msgstr "Webvise Login"
 
 #: admin/class-wv-login-admin.php:156
 msgid "Webvise Login settings"
-msgstr ""
+msgstr "Webvise Login Einstellungen"
 
 #: admin/class-wv-login-admin.php:108
 msgid "WV Login"
-msgstr ""
+msgstr "WV Login"

@@ -254,7 +254,7 @@ class wv_Login_Public {
                 //$return_html .= '<label for="wv-login-emailaddress">' . __('Emailaddress','wv-login') . '</label>';
                 $return_html .= '<input name="wv-login-emailaddress" id="wv-login-emailaddress" type="email" placeholder="' . __('E-Mailaddress', 'wv-login') . '" value="' . $user_email . '">';
                 $return_html .= '<input type="hidden" value="1" name="wv-login-is-submitted">';
-                $return_html .= '<input type="submit" name="wv-login-sumbit" id="wv-login-submit" value="Get Login Link">';
+                $return_html .= '<input type="submit" name="wv-login-sumbit" id="wv-login-submit" value="' . __('Get login link','wv-login') . '">';
                 $return_html .= '</form>';
             } else {
                 $return_html .= '<p class="wvlogin-form-success">' . __('If your Emailaddress has been found in our system you will receive an e-mail with your magic login-link shortly. Check also your Spam / Junkmail folder when you do not receive it.','wv-login') . '</p>';
