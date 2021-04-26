@@ -1,14 +1,13 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Webvise Login\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-26 13:59+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: \n"
-"Language: \n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: 2021-04-26 13:46+0000\n"
+"PO-Revision-Date: 2021-04-26 13:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,43 +17,43 @@ msgstr ""
 
 #. Description of the plugin
 msgid "A plugin to login users with a link send in an e-mail"
-msgstr ""
+msgstr "A plugin to login users with a link send in an e-mail"
 
 #: public/class-wv-login-public.php:145
 msgid "An error occured when submitting the form"
-msgstr ""
+msgstr "An error occured when submitting the form"
 
 #: public/class-wv-login-public.php:255
 msgid "E-Mailaddress"
-msgstr ""
+msgstr "E-Mailaddress"
 
 #: admin/class-wv-login-admin.php:180
 msgid "Email Sender emailaddress"
-msgstr ""
+msgstr "Email Sender emailaddress"
 
 #: admin/class-wv-login-admin.php:171
 msgid "Email Sender Name"
-msgstr ""
+msgstr "Email Sender Name"
 
 #: admin/class-wv-login-admin.php:189
 msgid "Email Subject"
-msgstr ""
+msgstr "Email Subject"
 
 #: admin/class-wv-login-admin.php:198
 msgid "Email Text (use #LINK# for the generated link)"
-msgstr ""
+msgstr "Email Text (use #LINK# for the generated link)"
 
 #: admin/class-wv-login-admin.php:123
 msgid "Error found in security key"
-msgstr ""
+msgstr "Error found in security key"
 
 #: public/class-wv-login-public.php:257
 msgid "Get login link"
-msgstr ""
+msgstr "Get login link"
 
 #. URI of the plugin
 msgid "https://www.webvise.nl/plugins/wv-login"
-msgstr ""
+msgstr "https://www.webvise.nl/plugins/wv-login"
 
 #: public/class-wv-login-public.php:260
 msgid ""
@@ -62,19 +61,23 @@ msgid ""
 "with your magic login-link shortly. Check also your Spam / Junkmail folder "
 "when you do not receive it."
 msgstr ""
+"If your Emailaddress has been found in our system you will receive an e-mail "
+"with your magic login-link shortly. Check also your Spam / Junkmail folder "
+"when you do not receive it."
 
 #: public/class-wv-login-public.php:218 public/class-wv-login-public.php:223
 #: public/class-wv-login-public.php:228
 msgid "Invalid Emailaddress"
-msgstr ""
+msgstr "Invalid Emailaddress"
 
 #: public/class-wv-login-public.php:240
 msgid "Magic login with e-mail"
-msgstr ""
+msgstr "Magic login with e-mail"
 
 #: admin/class-wv-login-admin.php:162
 msgid "Only the following roles can login per link (seperate roles with comma)"
 msgstr ""
+"Only the following roles can login per link (seperate roles with comma)"
 
 #: public/class-wv-login-public.php:253
 msgid ""
@@ -82,33 +85,38 @@ msgid ""
 "have a valid account you will receive an e-mail with a link to log in "
 "immediately."
 msgstr ""
+"Quick login without password? Please enter your e-mail address below, if you "
+"have a valid account you will receive an e-mail with a link to log in "
+"immediately."
 
 #: admin/class-wv-login-admin.php:207
 msgid "Redirect to url after login (enter the full url)"
-msgstr ""
+msgstr "Redirect to url after login (enter the full url)"
 
 #: admin/class-wv-login-admin.php:216
 msgid "Save changes"
-msgstr ""
+msgstr "Save changes"
 
 #: public/class-wv-login-public.php:210
 msgid ""
 "There was a problem with sending emails, the system administrator has been "
 "notified"
 msgstr ""
+"There was a problem with sending emails, the system administrator has been "
+"notified"
 
 #. Author of the plugin
 msgid "Webvise"
-msgstr ""
+msgstr "Webvise"
 
 #. Name of the plugin
 msgid "Webvise Login"
-msgstr ""
+msgstr "Webvise Login"
 
 #: admin/class-wv-login-admin.php:156
 msgid "Webvise Login settings"
-msgstr ""
+msgstr "Webvise Login settings"
 
 #: admin/class-wv-login-admin.php:108
 msgid "WV Login"
-msgstr ""
+msgstr "WV Login"
