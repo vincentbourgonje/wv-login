@@ -180,6 +180,15 @@ class wv_Login_Public {
                         // Generate login link
                         $login_link = WV_LOGIN_PLUGIN_URL . 'process.php?tokenid=' . $login_token;
 
+                        // Check if the current url contains a redirect_to parameter, if so we will add it to our url
+                        if (isset($_GET["redirect_to"])) {
+                            $redirect_url = $_GET["redirect_to"];
+                            if (strpos($redirect_url,'https://')>0 || strpos($redirect_url,'http://')>0) {
+                                // assuming that the url is already encoded
+                                $login_link = $login_link . '&redirect_to=' . $redirect_url;
+                            }
+                        }
+
                         // Send the E-mail
                         $setting_name = get_option('wvlogin-settings-email-sender');
                         $setting_email = get_option('wvlogin-settings-email-emailaddress');
