@@ -5,7 +5,13 @@
     global $wpdb;
 
     $token_id = $_GET["tokenid"];
-    $setting_redirect_url = get_option('wvlogin-settings-redirect-to');
+
+    if (isset($_GET['redirect_to'])) {
+        $setting_redirect_url = urldecode($_GET["redirect_to"]);
+    } else {
+        $setting_redirect_url = get_option('wvlogin-settings-redirect-to');
+    }
+
     $now_date = date_i18n("Y-m-d H:i:s.u");
 
     $tablename = $wpdb->prefix . 'usermeta';
@@ -24,6 +30,11 @@
         update_user_caches($user);
         update_user_meta($user_id, 'wvlogindate', '');
         update_user_meta($user_id, 'wvlogintoken', '');
+
+        // set the last lagin date + time
+        //add or update the last login value for logged in user
+        update_user_meta( $user->ID, 'last_login', $now_date );
+        update_user_meta( $user->ID, 'current_login', $now_date );
         wp_redirect($setting_redirect_url);
     } else {
         echo '<p>' . __('Invalid login link!','wv-login') . '</p>';
