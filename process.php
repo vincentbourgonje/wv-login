@@ -37,9 +37,19 @@
         update_user_meta( $user->ID, 'current_login', $now_date );
         wp_redirect($setting_redirect_url);
     } else {
-        echo '<p>' . __('Invalid login link!','wv-login') . '</p>';
-        if ($now_date > $token_valid_until) {
-            echo '<p>' . __('Token has expired!','wv-login') . '</p>';
-        }
+
+        echo '<link rel="stylesheet" type="text/css" href="public/css/wv-login-public.css">';
+
+        echo '<div class="wvlogin-form">';
+        echo '<h2>' . __('Magic login with e-mail', 'wv-login') . '</h2>';
+        echo '<div class="wvlogin-form-error">';
+
+            echo '<p>' . __('Invalid login link!','wv-login') . '</p>';
+            if ($now_date > $token_valid_until) {
+                echo '<p>' . __('Token has expired!','wv-login') . '<br><a href="' . $setting_redirect_url . '">' . __('Get a new and fresh Magic Link!','wv-login') . '</a></p>';
+            }
+
+        echo '</div>';
+        echo '</div>';
 
     }

@@ -183,7 +183,7 @@ class wv_Login_Public {
                         // Check if the current url contains a redirect_to parameter, if so we will add it to our url
                         if (isset($_GET["redirect_to"])) {
                             $redirect_url = $_GET["redirect_to"];
-                            if (strpos($redirect_url,'https://')>0 || strpos($redirect_url,'http://')>0) {
+                            if (strpos($redirect_url,'https://')>=0 || strpos($redirect_url,'http://')>=0) {
                                 // assuming that the url is already encoded
                                 $login_link = $login_link . '&redirect_to=' . $redirect_url;
                             }
@@ -224,17 +224,17 @@ class wv_Login_Public {
 
                     } else {
                         $form_error = true;
-                        $form_error_msg .= '003 ' . __('Invalid Emailaddress', 'wv-login');
+                        $form_error_msg .= '003 ' . __('An error occurred while logging in', 'wv-login');
                         $showloginform = true;
                     }
                 } else {
                     $form_error = true;
-                    $form_error_msg .= '002 ' . __('Invalid Emailaddress', 'wv-login');
+                    $form_error_msg .= '002 ' . __('An error occurred while logging in', 'wv-login');
                     $showloginform = true;
                 }
             } else {
                 $form_error = true;
-                $form_error_msg .= '001 ' . __('Invalid Emailaddress', 'wv-login');
+                $form_error_msg .= '001 ' . __('An error occurred while logging in', 'wv-login');
                 $showloginform = true;
             }
 

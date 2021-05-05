@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Webvise Login\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-26 13:59+0000\n"
+"POT-Creation-Date: 2021-05-05 10:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -24,7 +24,12 @@ msgstr ""
 msgid "An error occured when submitting the form"
 msgstr ""
 
-#: public/class-wv-login-public.php:255
+#: public/class-wv-login-public.php:227 public/class-wv-login-public.php:232
+#: public/class-wv-login-public.php:237
+msgid "An error occurred while logging in"
+msgstr ""
+
+#: public/class-wv-login-public.php:264
 msgid "E-Mailaddress"
 msgstr ""
 
@@ -48,7 +53,11 @@ msgstr ""
 msgid "Error found in security key"
 msgstr ""
 
-#: public/class-wv-login-public.php:257
+#: process.php:49
+msgid "Get a new and fresh Magic Link!"
+msgstr ""
+
+#: public/class-wv-login-public.php:266
 msgid "Get login link"
 msgstr ""
 
@@ -56,19 +65,18 @@ msgstr ""
 msgid "https://www.webvise.nl/plugins/wv-login"
 msgstr ""
 
-#: public/class-wv-login-public.php:260
+#: public/class-wv-login-public.php:269
 msgid ""
 "If your Emailaddress has been found in our system you will receive an e-mail "
 "with your magic login-link shortly. Check also your Spam / Junkmail folder "
 "when you do not receive it."
 msgstr ""
 
-#: public/class-wv-login-public.php:218 public/class-wv-login-public.php:223
-#: public/class-wv-login-public.php:228
-msgid "Invalid Emailaddress"
+#: process.php:47
+msgid "Invalid login link!"
 msgstr ""
 
-#: public/class-wv-login-public.php:240
+#: process.php:44 public/class-wv-login-public.php:249
 msgid "Magic login with e-mail"
 msgstr ""
 
@@ -76,7 +84,7 @@ msgstr ""
 msgid "Only the following roles can login per link (seperate roles with comma)"
 msgstr ""
 
-#: public/class-wv-login-public.php:253
+#: public/class-wv-login-public.php:262
 msgid ""
 "Quick login without password? Please enter your e-mail address below, if you "
 "have a valid account you will receive an e-mail with a link to log in "
@@ -91,10 +99,14 @@ msgstr ""
 msgid "Save changes"
 msgstr ""
 
-#: public/class-wv-login-public.php:210
+#: public/class-wv-login-public.php:219
 msgid ""
 "There was a problem with sending emails, the system administrator has been "
 "notified"
+msgstr ""
+
+#: process.php:49
+msgid "Token has expired!"
 msgstr ""
 
 #. Author of the plugin
